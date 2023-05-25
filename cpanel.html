@@ -1,0 +1,110 @@
+<html>
+<head>
+<title> Just Demo </title>
+<style>
+
+.wrapper{
+margin: 0 auto;
+display: grid;
+width: 100%;
+height: 100vh;
+grid-template-areas:
+"header header header header header header header"
+"section section section section section section section"
+"nav nav nav nav nav nav nav"
+"aside aside main main main main main"
+"aside aside main main main main main"
+"aside aside main main main main main"
+"aside aside main main main main main"
+"footer footer footer footer footer footer footer"
+"footer footer footer footer footer footer footer";
+
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+  grid-area: header;
+background-color: red;
+}
+.section {
+  grid-area: section;
+background-color: green;
+}
+.nav {
+  grid-area: nav;
+ background-color: yellow;
+}
+.aside {
+  grid-area: aside;
+}
+.main {
+  grid-area: main;
+background-color: blue;
+padding: 5%;
+color: white;
+}
+.footer {
+  grid-area: footer;
+background-color: black;
+color:white;
+text-align: center;
+}
+.header span {
+font-size: 40px;
+color: white;
+padding: 20px;
+}
+#box1{
+margin-left: 60%;
+font-size: 20px;
+}
+.section{
+text-align: center;
+color: white;
+}
+.aside li{
+margin-top:10%;
+font-size: 20px;
+list-style:none;
+}
+
+input {
+margin-top: 5%;
+}
+</style>
+</head>
+<body>
+<div class= "wrapper">
+<div class= "header">
+<span>UGO</span>
+<span id="box1">ID FL012001</span>
+</div>
+<div class="section"><h1>CONTROL PANEL</h1></div>
+<div class ="nav"><h2>CP > SETTINGS</h2></div>
+<div  class="aside">
+<ul>
+<li><button>GENERAL</button></li>
+<li><button>SETTINGS</button></li>
+<li><button>TRAFFIC</button></li>
+<li><button>ACCOUNT INFO</button></li>
+</ul>
+</div>
+<div class="main">
+<form action = "#" method = "get">
+         SSID: 
+            <input type = "text" name = "ssid" value = "" maxlength = "100" />
+         <br />
+         
+         WiFi Password: 
+            <input type = "text" name = "passkey" value = "" maxlength = "100" />
+	<br />
+         <input type = "submit" value ="APPLY" />
+      </form>
+
+</div>
+<div class="footer">&copy ugo.ng</div>
+</div>
+
+</body>
+</html>
