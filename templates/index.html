@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<title> Router Interface </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+<img src="{{ url_for('static', filename='css/ugo.png') }}" alt="image_present">
+<br/>
+<form action ="cpanel" method = "post">
+<p> Enter your login credentials</p>
+<br/>
+<div>Username &nbsp;&nbsp;&nbsp;&nbsp;</div><input type="text" name="name_input">
+<br/>
+<div>Password &nbsp;&nbsp;&nbsp;&nbsp;</div><input type="password" name="pass_input">
+<br/>
+<input type="submit" value="LOG IN" id="greet">
+</form>
+</body>
+</html>

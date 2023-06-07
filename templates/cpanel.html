@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Just Demo </title>
+<title> Router CPANEL </title>
 <style>
 
 .wrapper{
@@ -91,16 +91,13 @@ margin-top: 5%;
 </ul>
 </div>
 <div class="main">
-<form action = "#" method = "get">
-         SSID: 
-            <input type = "text" name = "ssid" value = "" maxlength = "100" />
-         <br />
-         
-         WiFi Password: 
-            <input type = "text" name = "passkey" value = "" maxlength = "100" />
-	<br />
-         <input type = "submit" value ="APPLY" />
-      </form>
+<form action ="rboard" method = "post">
+<p> Enter WiFi password </p>
+<br />
+<input type="text" name="name_input">
+<br/>
+<input type="submit" value="APPLY" id="greet">
+</form>
 
 </div>
 <div class="footer">&copy ugo.ng</div>
