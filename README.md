@@ -11,7 +11,7 @@ Please note that this app is [deployed](https://ogungbile.pythonanywhere.com/log
 <h1 align="center">UGO</h1>
 
 <p align="center">
-  <img src="https://github.com/bdbaraban/ideadog/blob/master/assets/ideadog-logo.png"
+  <img src="[https://github.com/bdbaraban/ideadog/blob/master/assets/ideadog-logo.png](https://github.com/ogungbile/ugo-portfolio_project/blob/master/static/css/ugo.png)"
        alt="UGO Interface"
   />
 </p>
