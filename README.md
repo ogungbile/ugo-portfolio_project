@@ -31,7 +31,7 @@ For a more in-depth description of UGO as well as an overview of its tech stack 
 ## Tech Stack :poodle:
 
 <p align="center">
-  <img src="https://github.com/bdbaraban/ideadog/blob/master/assets/ideadog-stack.png"
+  <img src="https://github.com/ogungbile/ugo-portfolio_project/blob/master/tech.png"
        alt="IdeaDog Tech Stack"
        width="600"
   />
